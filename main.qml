@@ -131,7 +131,7 @@ Item {
   }
 
   Timer {
-    id: refreshimer
+    id: refreshTimer
     interval: 2000
     repeat: false
 
@@ -203,7 +203,7 @@ Item {
           }
           deviceDetails = dds;
           deviceDetailsChanged();
-          refreshimer.restart();
+          refreshTimer.restart();
         }
       }
     };
